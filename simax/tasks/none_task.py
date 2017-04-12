@@ -1,4 +1,4 @@
-from tasks.base_task import BaseTask
+from simax.tasks.base_task import BaseTask
 
 
 class NoneTask(BaseTask):

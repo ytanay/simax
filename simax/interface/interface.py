@@ -1,11 +1,8 @@
 import pprint
 from tkinter import *
 
-from entitiy.park import Park
-from person.person import Person
-from seeding import seeder
-from transport.road import Road
-from world.world import World
+from simax.seeding import seeder
+from simax.world.world import World
 
 
 def flatten_list(param):
@@ -77,4 +74,3 @@ class Interface(object):
         if self.is_cycling:
             self.master.after(10, self.full_cycle)
 
-Interface().start()

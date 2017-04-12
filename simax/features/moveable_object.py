@@ -1,8 +1,8 @@
 import math
 
-from entitiy.base_entity import BaseEntity
-from features.physical_object import PhysicalObject
-from utils import math_utils
+from simax.entity.base_entity import BaseEntity
+from simax.features.physical_object import PhysicalObject
+from simax.utils import math_utils
 
 
 class MovableObject(BaseEntity):

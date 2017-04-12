@@ -1,8 +1,8 @@
-from features.moveable_object import MovableObject
-from features.vector import Vector
-from person.preson_vectors import PersonalityVector, StateVector
-from tasks.none_task import NoneTask
-from world.world import World
+from simax.features.moveable_object import MovableObject
+from simax.features.vector import Vector
+from simax.person.preson_vectors import PersonalityVector, StateVector
+from simax.tasks.none_task import NoneTask
+from simax.world.world import World
 
 
 class Person(MovableObject):

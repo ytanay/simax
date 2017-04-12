@@ -1,5 +1,5 @@
 import pytest
-from transport.road import Road
+from simax.transport.road import Road
 
 @pytest.mark.parametrize(
     'road',

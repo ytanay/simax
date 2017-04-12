@@ -1,6 +1,6 @@
 from math import sqrt
 
-from features.trackable import Trackable
+from simax.features.trackable import Trackable
 
 
 class PhysicalObject(Trackable):

@@ -1,11 +1,11 @@
 import random
 from collections import defaultdict
 
-from features.moveable_object import MovableObject
-from navigation.pathfinding import Pathfinder
-from navigation.topology import Topology
-from utils.math_utils import linear_interpolation
-from utils.singleton import Singleton
+from simax.features.moveable_object import MovableObject
+from simax.navigation.pathfinding import Pathfinder
+from simax.navigation.topology import Topology
+from simax.utils.math_utils import linear_interpolation
+from simax.utils.singleton import Singleton
 
 
 def safe_choose(x, y, key):

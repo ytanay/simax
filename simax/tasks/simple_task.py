@@ -1,5 +1,5 @@
-from features.vector import Vector
-from tasks.base_task import BaseTask
+from simax.features.vector import Vector
+from simax.tasks.base_task import BaseTask
 
 
 class SimpleTask(BaseTask):

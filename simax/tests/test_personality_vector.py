@@ -1,8 +1,8 @@
-from typing import Tuple
+from simax.typing import Tuple
 
 import pytest
 
-from person.preson_vectors import PersonalityVector
+from simax.person.preson_vectors import PersonalityVector
 
 VECTORS = [
     (PersonalityVector(0, 0), PersonalityVector(0, 0), 0),

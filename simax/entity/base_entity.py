@@ -1,4 +1,4 @@
-from features.physical_object import PhysicalObject
+from simax.features.physical_object import PhysicalObject
 
 
 class BaseEntity(PhysicalObject):

@@ -1,6 +1,6 @@
-from entitiy.base_entity import BaseEntity
-from features.vector import Vector
-from tasks.simple_task import SimpleTask
+from simax.entity.base_entity import BaseEntity
+from simax.features.vector import Vector
+from simax.tasks.simple_task import SimpleTask
 
 
 class Home(BaseEntity):

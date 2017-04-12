@@ -1,4 +1,4 @@
-from features.vector import Vector
+from simax.features.vector import Vector
 
 
 class StateVector(Vector):

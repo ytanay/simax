@@ -1,7 +1,7 @@
 from collections import defaultdict
 from typing import List
 
-from transport.road import Intersection, Road
+from simax.transport.road import Intersection, Road
 
 
 class Topology(object):
