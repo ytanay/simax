@@ -1,14 +1,14 @@
-from simax.typing import Tuple
+from typing import Tuple
 
 import pytest
 
 from simax.person.preson_vectors import PersonalityVector
 
 VECTORS = [
-    (PersonalityVector(0, 0), PersonalityVector(0, 0), 0),
-    (PersonalityVector(1, 1), PersonalityVector(0, 0), 0),
-    (PersonalityVector(1, 1), PersonalityVector(1, 1), 2),
-    (PersonalityVector(0.5, 0.2), PersonalityVector(-0.1, 0.8), 0.11000000000000003 )
+    (PersonalityVector(a=0, b=0), PersonalityVector(a=0, b=0), 0),
+    (PersonalityVector(a=1, b=1), PersonalityVector(a=0, b=0), 0),
+    (PersonalityVector(a=1, b=1), PersonalityVector(a=1, b=1), 2),
+    (PersonalityVector(a=0.5, b=0.2), PersonalityVector(a=-0.1, b=0.8), 0.11000000000000003)
 ]
 
 
