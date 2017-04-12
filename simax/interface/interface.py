@@ -74,3 +74,4 @@ class Interface(object):
         if self.is_cycling:
             self.master.after(10, self.full_cycle)
 
+Interface().start()
